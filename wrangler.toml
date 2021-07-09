@@ -1,0 +1,9 @@
+name = "worker-form-slack"
+type = "webpack"
+
+account_id = "ADD YOUR CLOUDFLARE ACCOUNT ID HERE"
+workers_dev = false
+route = "YOURDOMAIN/contact/submit"
+zone_id = "ADD YOUR CLOUDFLARE DOMAIN ZONE ID HERE"
+
+vars = { SLACK_CHANNEL = "ADD YOUR SLACK CHANNEL NAME HERE", REDIRECT_SUCCESS = "https://YOURDOMAIN/contact/success" }
